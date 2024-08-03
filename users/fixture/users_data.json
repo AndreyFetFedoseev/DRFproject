@@ -1,0 +1,37 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "email": "fet@mail.com",
+      "first_name": "Fedor",
+      "last_name": "Fedorov",
+      "surname": "Fedorovich",
+      "phone": "8-990-905-6678",
+      "country": "Russia",
+      "avatar": "Null"
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 1,
+    "fields": {
+      "user": "1",
+      "data_of_payment": "2024-08-12",
+      "paid_course": "1",
+      "payment_amount": 6000,
+      "payment_method": "cash"
+    }
+  },
+  {
+    "model": "users.payments",
+    "pk": 2,
+    "fields": {
+      "user": "1",
+      "data_of_payment": "2024-08-17",
+      "paid_course": "2",
+      "payment_amount": 9000,
+      "payment_method": "cash"
+    }
+  }
+]
